@@ -1,10 +1,5 @@
 # Gemini Agent Guide
 
-Start with `ai-specs/specs/base-standards.mdc` to cover the shared rules. Then review the standards that apply to your scope:
-- Backend or API changes: `ai-specs/specs/backend-standards.mdc`.
-- Frontend/React updates: `ai-specs/specs/frontend-standards.mdc`.
-- Android/Kotlin work: `ai-specs/specs/android-standards.mdc`.
-- AI tooling or automation: `ai-specs/specs/ai-tools-standards.mdc`.
-- Documentation edits: `ai-specs/specs/documentation-standards.mdc`.
+Begin with `ai-specs/specs/base-standards.mdc`. It provides the single source of navigation to all other `.mdc` standards (backend, frontend, Android, AI tools, documentation) that might apply.
 
-Use this file as a map; the linked `.mdc` documents contain the full expectations.
+This file is reserved for Gemini-specific repo direction; in the absence of extra notes, follow the `.mdc` standards referenced from the base document.

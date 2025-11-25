@@ -4,12 +4,12 @@ This repository centralizes the Markdown Concept (`.mdc`) specification files th
 
 ## How to use this repository
 - Start with `AGENTS.md` to see how agent entrypoints map to the `.mdc` files.
-- Open your agent-specific file (`codex.md`, `CLAUDE.md`, or `GEMINI.md`) to get the reading order for the standards you need.
-- Consult the `.mdc` files directly for the authoritative rules.
+- Open `ai-specs/specs/base-standards.mdc` for the canonical rules and the full index of domain standards to apply.
+- Use your agent-specific file (`codex.md`, `CLAUDE.md`, or `GEMINI.md`) only for any repo nuances; the `.mdc` files carry the requirements.
 
 ## Specification index
 The `ai-specs/specs` directory contains the standards referenced by the agent files:
-- `base-standards.mdc`: universal guidance that always applies.
+- `base-standards.mdc`: universal guidance that always applies and lists the other standards to combine with your task.
 - `backend-standards.mdc`: Node.js/TypeScript backend conventions and architecture patterns.
 - `frontend-standards.mdc`: React application standards for components, state, and testing.
 - `android-standards.mdc`: Android/Kotlin development guidance.
